@@ -9,11 +9,6 @@
 /* Begin PBXBuildFile section */
 		9215E07B2576F0F4003ECD4F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9215E07A2576F0F4003ECD4F /* HealthKit.framework */; };
 		9215E08525773174003ECD4F /* WaterGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9215E08425773174003ECD4F /* WaterGraphic.swift */; };
-		92F5CD402589FA4D00D15EBC /* SettingsInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92F5CD3E2589FA4D00D15EBC /* SettingsInfo.xcdatamodeld */; };
-		92F5CD442589FA8E00D15EBC /* SettingsInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5CD422589FA8E00D15EBC /* SettingsInfo+CoreDataClass.swift */; };
-		92F5CD452589FA8E00D15EBC /* SettingsInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5CD432589FA8E00D15EBC /* SettingsInfo+CoreDataProperties.swift */; };
-		BF1438CF2577F9ED00C6ED98 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1438CE2577F9ED00C6ED98 /* Settings.swift */; };
-		BF1438DA25783CF500C6ED98 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1438D825783CF500C6ED98 /* HealthStore.swift */; };
 		BF3D1C432575D8F5006B3D7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D1C422575D8F5006B3D7D /* AppDelegate.swift */; };
 		BF3D1C452575D8F5006B3D7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D1C442575D8F5006B3D7D /* SceneDelegate.swift */; };
 		BF3D1C472575D8F5006B3D7D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D1C462575D8F5006B3D7D /* SettingsViewController.swift */; };
@@ -33,11 +28,6 @@
 		9215E0782576F0F4003ECD4F /* FinalProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinalProject.entitlements; sourceTree = "<group>"; };
 		9215E07A2576F0F4003ECD4F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		9215E08425773174003ECD4F /* WaterGraphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterGraphic.swift; sourceTree = "<group>"; };
-		92F5CD3F2589FA4D00D15EBC /* SettingsInfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SettingsInfo.xcdatamodel; sourceTree = "<group>"; };
-		92F5CD422589FA8E00D15EBC /* SettingsInfo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsInfo+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		92F5CD432589FA8E00D15EBC /* SettingsInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsInfo+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		BF1438CE2577F9ED00C6ED98 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		BF1438D825783CF500C6ED98 /* HealthStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
 		BF3D1C3F2575D8F5006B3D7D /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3D1C422575D8F5006B3D7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF3D1C442575D8F5006B3D7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,15 +85,10 @@
 		BF3D1C412575D8F5006B3D7D /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
-				92F5CD422589FA8E00D15EBC /* SettingsInfo+CoreDataClass.swift */,
-				92F5CD432589FA8E00D15EBC /* SettingsInfo+CoreDataProperties.swift */,
-				92F5CD3E2589FA4D00D15EBC /* SettingsInfo.xcdatamodeld */,
-				BF1438D825783CF500C6ED98 /* HealthStore.swift */,
 				9215E0782576F0F4003ECD4F /* FinalProject.entitlements */,
 				BF3D1C4D2575D8F7006B3D7D /* LaunchScreen.storyboard */,
 				BF3D1C482575D8F5006B3D7D /* Main.storyboard */,
 				BF3D1C5F2575DBC5006B3D7D /* WaterLogViewController.swift */,
-				BF1438CE2577F9ED00C6ED98 /* Settings.swift */,
 				BF3D1C572575D976006B3D7D /* AddDrinkViewController.swift */,
 				BF3D1C5B2575D988006B3D7D /* PreviousDayViewController.swift */,
 				BF3D1C462575D8F5006B3D7D /* SettingsViewController.swift */,
@@ -147,7 +132,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					BF3D1C3E2575D8F5006B3D7D = {
 						CreatedOnToolsVersion = 12.2;
@@ -196,16 +181,11 @@
 				BF3D1C602575DBC5006B3D7D /* WaterLogViewController.swift in Sources */,
 				BF3D1C582575D976006B3D7D /* AddDrinkViewController.swift in Sources */,
 				BF3D1C672575E06E006B3D7D /* HydratingDrinks.swift in Sources */,
-				BF1438CF2577F9ED00C6ED98 /* Settings.swift in Sources */,
-				BF1438DA25783CF500C6ED98 /* HealthStore.swift in Sources */,
-				92F5CD452589FA8E00D15EBC /* SettingsInfo+CoreDataProperties.swift in Sources */,
-				92F5CD402589FA4D00D15EBC /* SettingsInfo.xcdatamodeld in Sources */,
 				BF3D1C6A2575E09A006B3D7D /* DehydratingDrinks.swift in Sources */,
 				9215E08525773174003ECD4F /* WaterGraphic.swift in Sources */,
 				BF3D1C6E2575E0B2006B3D7D /* AlcoholicDrinks.swift in Sources */,
 				BF3D1C5C2575D988006B3D7D /* PreviousDayViewController.swift in Sources */,
 				BF3D1C632575DC0F006B3D7D /* Drinks.swift in Sources */,
-				92F5CD442589FA8E00D15EBC /* SettingsInfo+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -337,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -356,7 +336,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GUYPJD4NUE;
 				INFOPLIST_FILE = FinalProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,7 +356,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GUYPJD4NUE;
 				INFOPLIST_FILE = FinalProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,19 +389,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		92F5CD3E2589FA4D00D15EBC /* SettingsInfo.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				92F5CD3F2589FA4D00D15EBC /* SettingsInfo.xcdatamodel */,
-			);
-			currentVersion = 92F5CD3F2589FA4D00D15EBC /* SettingsInfo.xcdatamodel */;
-			path = SettingsInfo.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = BF3D1C372575D8F5006B3D7D /* Project object */;
 }

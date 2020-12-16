@@ -11,9 +11,8 @@ class AlcoholicDrinks: Drinks {
     var subtype: String
     var alcPercent: Double
     
-    init (subtype: String, alcPercent: Double, type: String, amount: Double, date: Date, time: Date) {
+    /*init (subtype: String, alcPercent: Double) {
         self.subtype = subtype
         self.alcPercent = alcPercent
-        super.init(type: type, amount: amount, date: date, time: time)
-    }
+    }*/
 }
